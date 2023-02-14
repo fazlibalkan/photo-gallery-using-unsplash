@@ -1,0 +1,60 @@
+.navbar {
+    background-color: #1d1721;
+}
+
+.navbar-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 36px 10px;
+    padding-bottom: 72px;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+/* Change the link color to #111 (black) on hover */
+.logo {
+    padding: 0px 48px;
+    width: 48px;
+}
+
+.search-button {
+    margin-right: 80px;
+    margin-top: 0;
+    border-radius: 50px;
+    padding: 16px 48px;
+    background-color: #23239f;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.search-button a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.search-button:hover {
+    background-color: indigo;
+}
+
+@media screen and (max-width: 1300px) {
+    .search-button {
+        padding: 16px 24px;
+        margin-right: 40px;
+    }
+    .navbar-ul {
+        padding: 12px 2px;
+        padding-bottom: 64px;
+    }
+
+    .logo {
+        padding: 0px 32px;
+        width: 48px;
+    }
+
+}
